@@ -1,5 +1,5 @@
 // [การทำ List จาก Array หรือ Slice เป็น JSON]
-package main
+package listToJson
 
 import (
 	"encoding/json" // มีการ Import Encoding JSON เข้ามา "fmt"
@@ -13,7 +13,7 @@ type customer struct { // มีการปรับ Field ให้ขึ้�
 	Phone     string
 }
 
-func main() {
+func ListToJson() {
 	customerLists := []customer{}
 	customer1 := customer{
 		Firstname: "Chaiyarin",

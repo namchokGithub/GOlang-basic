@@ -22,6 +22,10 @@ func (h humen) printInfo() {
  */
 func main() {
 	fmt.Println("------------- Main ---------------")
+	// v := Vertex{3, 4}
+	// v.Scale(10)
+	// fmt.Println(v.Abs())
+
 	h := humen{name: "Namchok", age: 12}
 	h.printInfo()
 	// fmt.Println("School Address:", school.GetSchoolAddressSchool())

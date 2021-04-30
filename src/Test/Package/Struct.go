@@ -9,7 +9,7 @@ type customer struct { // การประกาศโครงสร้าง
 	phone     string
 }
 
-func main() {
+func Struct() {
 	cus := customer{
 		firstname: "Chaiyarin",
 		lastname:  "Niamsuwan",
