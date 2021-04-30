@@ -5,6 +5,15 @@ import (
 	// "../pkg/school"
 )
 
+type humen struct {
+	name string
+	age  int
+}
+
+func (h humen) printInfo() {
+	fmt.Println(h.name, " ", h.age)
+}
+
 /*
  * Name: main
  * Parameter: None
@@ -13,6 +22,8 @@ import (
  */
 func main() {
 	fmt.Println("------------- Main ---------------")
+	h := humen{name: "Namchok", age: 12}
+	h.printInfo()
 	// fmt.Println("School Address:", school.GetSchoolAddressSchool())
 	// //** Declare variable
 	// fmt.Println("---------------- Declare variable")
