@@ -1,4 +1,4 @@
-package main
+package Struct
 
 import "fmt"
 
@@ -9,7 +9,7 @@ type customer struct { // การประกาศโครงสร้าง
 	phone     string
 }
 
-func Struct() {
+func Kstruct() {
 	cus := customer{
 		firstname: "Chaiyarin",
 		lastname:  "Niamsuwan",

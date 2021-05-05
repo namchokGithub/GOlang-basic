@@ -1,6 +1,7 @@
 package main
 
 import (
+	"Test/school"
 	"fmt"
 )
 
@@ -21,10 +22,8 @@ func (h humen) printInfo() {
  */
 func main() {
 	fmt.Println("------------- Main ---------------")
-	// v := Vertex{3, 4}
-	// v.Scale(10)
-	// fmt.Println(v.Abs())
 
+	fmt.Print(school.GetSchoolAddressSchool())
 	h := humen{name: "Namchok", age: 12}
 	h.printInfo()
 	// fmt.Println("School Address:", school.GetSchoolAddressSchool())
