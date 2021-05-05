@@ -1,7 +1,7 @@
 package school
 
-SchoolName := "เตรียมอุดมศึกษา";
+var SchoolName string = "เตรียมอุดมศึกษา"
 
 func GetSchoolAddressSchool() string {
-    return "กรุงเทพ";
+	return "กรุงเทพ" + SchoolName
 }

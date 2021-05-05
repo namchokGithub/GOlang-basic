@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	// "../pkg/school"
 )
 
 type humen struct {
