@@ -1,7 +1,6 @@
 package main
 
 import (
-	"Test/school"
 	"fmt"
 )
 
@@ -23,33 +22,10 @@ func (h humen) printInfo() {
 func main() {
 	fmt.Println("------------- Main ---------------")
 
-	fmt.Print(school.GetSchoolAddressSchool())
-	h := humen{name: "Namchok", age: 12}
-	h.printInfo()
-	// fmt.Println("School Address:", school.GetSchoolAddressSchool())
-	// //** Declare variable
-	// fmt.Println("---------------- Declare variable")
-	// DeclareVariable()
-	// //** Declare Function
-	// fmt.Println("---------------- Declare Function")
-	// printSchoolAddress()
-	// printSchoolAddressWithParameter("ระยอง")
-	// address := getSchoolAddress()
-	// fmt.Println(address)
-	// resultCode, resultAddress := getSchoolAddressReturn2Param()
-	// fmt.Println(resultCode)
-	// fmt.Println(resultAddress)
-	// //** Loop
-	// fmt.Println("---------------- Loop")
-	// Forloop()
-	// DoWhileloop()
-	// Whileloop()
-	// //** IF ELSE Condition
-	// fmt.Println("---------------- IF ELSE Condition")
-	// IfElseStatement()
-	// //** Array
-	// fmt.Println("---------------- Array")
-	// SampleArray()
+	// fmt.Print(school.GetSchoolAddressSchool())
+	// h := humen{name: "Namchok", age: 12}
+	// h.printInfo()
+
 } // End main
 
 /*
